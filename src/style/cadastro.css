@@ -17,12 +17,6 @@ body{
 
 }
 
-.container{
-    width: 80%;
-    height: 80vh;
-
-}
-
 .form-imagem{
     width: 50%;  
     padding: 1rem;  
@@ -43,6 +37,14 @@ body{
     flex-direction: row;
     padding: 1rem;
 
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    widht: 100%;
 }
 
 .containercadastro {
@@ -140,7 +142,6 @@ color: black;
 }
 
 .continue-button button {
-    width: 100%;
     border: none;
     background-color:  rgb(55, 247, 38);;
     padding: 0.62rem;
@@ -167,7 +168,7 @@ color: rgb(0, 0, 0);
         display: none;
     }
     .form{
-        width: 100%;
+        width: 50%;
     }
 
 }
