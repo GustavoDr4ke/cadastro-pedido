@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de cadastro</title>
+    <link rel="stylesheet" href="cadastro.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="containercadastro">
+       
+        <div class="titulo">
+          <h1>Cadastro</h1>
+        </div>
+        
+        <div class="form">
+          <div class="form-healer">
+            <div class="form-imagem" style="display: flex;">
+              <img src="formulario.svg" alt="" />
+            </div>
+          </div>
+          <form action="#">
+            <div class="input-group">
+              <div class="input-box">
+                <label for="firstname"> Primeiro nome </label>
+                <input
+                  id="firstname"
+                  type="text"
+                  name="firstname"
+                  placeholder="Digite seu primeiro Nome"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="lastname"> Sobrenome </label>
+                <input
+                  id="lastname"
+                  type="text"
+                  name="lastname"
+                  placeholder="Digite seu sobrenome "
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="apelido"> Apelido </label>
+                <input
+                  id="apelido"
+                  type="text"
+                  name="apelido"
+                  placeholder=" (Opcional) "
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="email"> E-mail </label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Digite seu Email "
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="password"> Senha </label>
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  placeholder="Digite seu Senha "
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="confirmpassword"> Confirme sua Senha </label>
+                <input
+                  id="confirmpassword"
+                  type="password"
+                  name="confirmpassword"
+                  placeholder="Digite seu Senha "
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="celular"> numero </label>
+                <input
+                  id="celular"
+                  type="number"
+                  name="celular"
+                  placeholder="(xx) x xxxx-xxxx"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="endereço"> Endereço </label>
+                <input
+                  id="endereço"
+                  type="text"
+                  name="endereço"
+                  placeholder=" Rua, Lote , Quadra "
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="setor"> Setor </label>
+                <input
+                  id="setor"
+                  type="text"
+                  name="setor"
+                  placeholder=" Setor onde mora "
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="conplemento"> Conplemento </label>
+                <input
+                  id="conplemento"
+                  type="text"
+                  name="conplemento"
+                  placeholder=" Cor da casa ou referencia "
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="continue-button">
+              <button><a href="#"> Continuar </a></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
